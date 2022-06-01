@@ -21,7 +21,7 @@ ATOM_NAME = C N     #  specify chemical symbols.
 phonopy setting.conf --abacus -d
 ```
 3. Calculate forces on atoms in the supercells with displacements. For each SCF calculation, you should specify `stru_file` with `STRU-{number}` and `out_force=1`. Be careful not to relax the structures
-4. Then create FORCE_SETS file using ABACUS inteface:
+4. Then create 'FORCE_SETS' file using ABACUS inteface:
 ```
 phonopy -f ./disp-{number}/OUT*/running*.log
 ```
