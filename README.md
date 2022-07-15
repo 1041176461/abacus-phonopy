@@ -13,9 +13,11 @@ Following packages needs to be installed first:
 ## Usage
 1. Prepare a 'setting.conf' with following tags:
 ```
-DIM = 2 2 3         #  when three integers are specified, a supercell elongated along axes of unit cell is created
-ATOM_NAME = C N     #  specify chemical symbols.
+DIM = 2 2 3         
+ATOM_NAME = C N     
 ```
+- when three integers are specified after `DIM =`, a supercell elongated along axes of unit cell is created
+- chemical symbols are specified after `ATOM_NAME =`, number of symbols should match `ntype` in ABACUS INPUT file
 2. To obtain supercells ($2\times 2\times 3$) with displacements, run phonopy:
 ```
 phonopy setting.conf --abacus -d
