@@ -8,7 +8,7 @@ Following packages needs to be installed first:
 
 ## Installation
 1. Move 'abacus.py' to '~/phonopy/interface'
-2. Add ABACUS-related codes in the '~/phonopy/interface/calculator.py' as 'calculator.py' we provided
+2. Add ABACUS-related codes in the '~/phonopy/interface/calculator.py' as 'calculator.py' we provided, which corresponds to Phonopy v2.13.1. Thus, I recommend that one should not overlap it directly so as not to cause a version mismatch
 
 ## Usage
 1. Prepare a 'setting.conf' with following tags:
